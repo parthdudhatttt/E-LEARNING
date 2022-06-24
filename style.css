@@ -1,0 +1,584 @@
+/* https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0c0d6955152485.5978a71916cb6.jpg */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Radio+Canada&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.width{
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+body ul{
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+}
+body h1,h2,h3,h4,h5,h6, p{
+    font-family: 'Open Sans', sans-serif;
+}
+.top_section{
+    background-image: url("/typing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.top_section::before{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.top_section_in{
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.navbar_logo img{
+    max-width: 230px;
+}
+.menu_icon{
+    display: none;
+}
+.menu nav ul{
+    display: flex;
+}
+.menu nav ul li{
+    padding: 0 30px;
+}
+.menu nav ul li a{
+    color: #5e5e5c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.menu nav ul li a:hover{
+    color: black;
+    font-weight: 700;
+}
+.menu nav ul li a b{
+    color: black;
+}
+.top_section_in .heading{
+    text-align: center;
+    padding: 215px 0 320px 0;
+}
+.top_section_in .heading h1, .top_section_in .heading h2{
+    color: white;
+    font-size: 35px;
+}
+.top_section_in .heading h2{
+    font-weight: 500;
+}
+.study{
+    background-color: #08bc7b;
+}
+.study_in{
+    display: flex;
+    justify-content: space-between;
+}
+.study_in .detail{
+    padding: 90px 200px 90px 0;
+    text-align: center;
+}
+.study_in .detail h2{
+    padding-bottom: 20px;
+    color: white;
+}
+.study_in .detail p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.812);
+}
+.study_in .image{
+    display: flex;
+    align-items: center;
+}
+.product_in{
+    padding-bottom: 50px;
+}
+.product_in .heading{
+    text-align: center;
+    padding: 50px 0;
+}
+.product_in .heading h2{
+    font-size: 20px;
+}
+.item_in{
+    padding: 0 100px;
+}
+.item_in .item{
+    display: flex;
+}
+.item_in .item .item_detail{
+    width: 36%;
+}
+.item_in .item .item_detail span{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: #08bc7b;
+}
+.item_in .item .item_detail p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.58);
+}
+.item_in .item .item_detail a{
+    color: #08bc7b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.item_in .item .item_image img{
+    max-width: 210px;
+    border-radius: 20px;
+}
+.item_in .item_2 .item_detail{
+    order: 2;
+}
+.item_in .item_2 .item_img{
+    order: 1;
+}
+.item_in .item_1{
+    text-align: end;
+}
+.item_in .item_2{
+    display: flex;
+    justify-content: end;
+}
+.item_in .item_1 .item_image{
+    padding-left: 40px;
+}
+.item_in .item_2 .item_image{
+    padding-right: 40px;
+}
+.about{
+    background-image: url("/background.jpg");
+    position: relative;
+}
+.about::before{
+    content: "";
+    background-color: rgb(255 255 255 / 9%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.about_in{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    position: relative;
+}
+.about_us{
+    width: 50%;
+    text-align: center;
+    padding-right: 100px;
+}
+.about_us h2{
+    color: white;
+}
+.about_us .underline{
+    padding-bottom: 40px;
+}
+.about_us span{
+    color: #999;
+}
+.about_us .fa-solid{
+    color: yellow;
+    font-size: 9px;
+}
+.about_us p{
+    color: rgb(216, 216, 216);
+    font-size: 13px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.about_us h4{
+    color: rgb(216, 216, 216);
+    font-size: 15px;
+    line-height: 40px;
+}
+.box_read{
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.box_read:hover{
+    background-color: #08bc7b;
+}
+.about_us .box{
+    padding: 40px 0;
+}
+.video{
+    width: 50%;
+}
+.video video{
+    width: 100%;
+}
+.services{
+    padding: 50px 250px;
+}
+.services_in{
+    background-image: url("/background.jpg");
+    border-radius: 10px;
+    position: relative;
+}
+.services_in::before{
+    content: " ";
+    background-color: rgb(255 255 255 / 9%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.services_in h2{
+    text-align: center;
+    padding: 30px 0 50px 0;
+    color: white;
+    font-size: 23px;
+    position: relative;
+}
+.item_box{
+    padding: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.item_box .item{
+    display: flex;
+    width: 50%;
+    color: white;
+    padding-bottom: 50px;
+    padding-right: 60px;
+}
+.item_box .item span{
+    padding-right: 25px;
+    font-size: 30px;
+    color: #999;
+}
+.item_box .item .detail h3{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.item_box .item .detail p{
+    color: rgb(174 174 174);
+    font-size: 13px;
+    line-height: 25px;
+}
+.services_link{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.services_link_in{
+    color: white;
+    padding: 13px 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: 'Radio Canada', sans-serif;
+}
+.services_link .services_link_in:hover{
+    background-color: #08bc7b;
+}
+.team{
+    background-image: url("/key_mouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.team::before{
+    content: "";
+    position: absolute;
+    background-color: #9ca592c7;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.team_in{
+    position: relative;
+}
+.team_in .heading h2{
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+.team_in .heading p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+.team_in .item{
+    display: flex;
+    padding: 100px 0;
+}
+.staff_item_box{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+}
+.staff_image img{
+    max-width: 140px;
+    border-radius: 70px;
+}
+.staff_detail{
+    padding-left: 30px;
+    line-height: 30px;
+}
+.staff_detail h5{
+    font-size: 16px;
+}
+.staff_detail p{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(92 92 92);
+}
+.staff_detail .staff_icon{
+    color: white;
+}
+.staff_detail .staff_icon span{
+    padding-right: 10px;
+}
+.client_in h2{
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 0 20px 0;
+}
+.client_in p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(110 110 110);
+}
+.client_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+.client_logo img{
+    max-width: 150px;
+}
+.review{
+    background-color: #e1dfe0;
+}
+.review_in{
+    display: flex;
+    align-items: center;
+}
+.men_image{
+    width: 50%;
+}
+.men_image img{
+    width: 70%;
+}
+.review_detail{
+    width: 50%;
+    padding: 50px 0;
+    text-align: center;
+}
+.review_detail h2{
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.review_detail h2::before{
+    content: "";
+    background: #08bc7b;
+    position: absolute;
+    height: 2px;
+    width: 16%;
+    bottom: 0;
+    left: 40%;
+}
+.review_detail h3{
+    font-size: 15px;
+    padding-top: 50px;
+}
+.review_detail p{
+    font-size: 13px;
+    color: rgb(110 110 110);
+    line-height: 25px;
+    padding: 20px 0;
+}
+.review_detail h5 {
+    padding-bottom: 30px;
+}
+.review_detail h5 span{
+    color: rgb(90 90 90);
+}
+.hill{
+    background-image: url(/mountain_climbing_man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hill::before{
+    content: " ";
+    background-color: #08bc7bdb;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.hill_in{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 70px 110px;
+    position: relative;
+    color: white;
+}
+.hill_box span{
+    font-size: 60px;
+}
+.hill_box h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.hill_box h4{
+    font-weight: 500;
+}
+.form_detail{
+    background-color: #f3f3f3;
+}
+.form_detail_in{
+    padding: 50px 0;
+}
+.form_heading{
+    text-align: center;
+    padding: 0 50px;
+}
+.form_heading h2{
+    font-size: 20px;
+}
+.form_heading p{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 25px 0;
+}
+.form_input{
+    display: flex;
+}
+.form_input_detail{
+    width: 50%;
+}
+.form_input_detail h4{
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    position: relative;
+}
+.form_input_detail h4::before{
+    content: "";
+    background:  #08bc7b;
+    position: absolute;
+    width: 4%;
+    height: 1.5px;
+    bottom: 0;
+}
+.form_input_detail p{
+    font-size: 12px;
+    font-weight: 700;
+    color: #999;
+    padding-top: 15px;
+}
+.form_inpute_detail{
+    width: 50%;
+    padding-top: 30px;
+}
+.form_inpute_detail .form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form_inpute_detail .form input{
+    border: 0px;
+    width: 46%;
+    padding: 13px;
+    margin-bottom: 20px;
+}
+.form_inpute_detail .form #message{
+    width: 100%;
+}
+.form_inpute_detail .submit{
+    display: flex;
+    justify-content: end;
+}
+.form_inpute_detail .submit input{
+    width: 30%;
+    border: 0px;
+    padding: 16px;
+    background-color: black;
+    color: #afafaf;
+}
+.form_inpute_detail .submit input:hover{
+    background-color: #08bc7b;
+    color: white;
+}
+.additional{
+    background-color: #2b2b2b;
+}
+.additional_in{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #434343;
+}
+.additional_item{
+    width: 30%;
+}
+.additional_item h4{
+    color: #adadad;
+    padding-bottom: 20px;
+}
+.additional_item p{
+    color: #6d6d6d;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+}
+.additional_item h5{
+    color: #6d6d6d;
+    line-height: 25px;
+}
+.additional_item img{
+    width: 100%;
+}
+.footer{
+    background-color: #2b2b2b;
+}
+.footer_in{
+    padding: 25px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_in p{
+    color: #6d6d6d;
+    font-size: 14px;
+    font-weight: 700;
+}
+.policy{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+}
+.policy h5{
+    color: #6d6d6d;
+}

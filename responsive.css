@@ -1,0 +1,81 @@
+@media (max-width: 1230px) and (min-width: 1099px){
+    .width{
+        max-width: 1000px;
+    }
+    .item_in{
+        padding: 0;
+    }
+    .item_in .item .item_detail{
+        width: 100%;
+    }
+    .product_in .item{
+        width: 100%;
+    }
+    .product_in .item_2{
+        margin: 0;
+    }
+    .item_box .item{
+        width: 100%;
+    }
+}
+@media (max-width: 1099px) and (min-width: 768px){
+    .width{
+        max-width: 700px;
+    }
+    .menu_icon{
+        display: flex;
+    }
+    .menu nav ul{
+        display: none;
+    }
+    .study_in{
+        flex-wrap: wrap;
+    }
+    .study_in .detail{
+        padding: 90px 0;
+    }
+    .study_in .image{
+        width: 100%;
+        justify-content: center;
+    }
+    .product_in .item{
+        width: 100%;
+        margin: 0;
+    }
+    .item_in{
+        padding: 0;
+    }
+    .item_in .item .item_detail{
+        width: 100%;
+    }
+    .about_in{
+        flex-wrap: wrap;
+    }
+    .about_us{
+        width: 100%;
+        padding: 0;
+    }
+    .video{
+        width: 100%;
+    }
+    .services{
+        padding: 50px 0;
+    }
+    .item_box .item{
+        width: 100%;
+    }
+    .team_in .item{
+        flex-wrap: wrap;
+        padding: 50px 0;
+    }
+    .staff_item_box{
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    .hill_in{
+        padding: 70px 0;
+    }
+    .policy{
+        width: 36%;
+    }
+}
